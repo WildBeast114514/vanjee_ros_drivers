@@ -17,7 +17,7 @@ lidar:
       max_distance: 120                             # 点云最大距离
       use_lidar_clock: true                         # True: 使用雷达时间作为消息时间戳
                                                     # False: 使用电脑主机时间作为消息时间戳
-      pcap_path: /apollo_workspace/720C224600030052_2024-06-12-14-33-16-870.pcap    # pcap文件绝对路径
+      pcap_path: /apollo_workspace/ros_ws/720C224600030052_2024-06-12-14-33-16-870.pcap    # pcap文件绝对路径
       pcap_repeat: true                             # 是否循环播放pcap
       pcap_rate: 1                                  # pcap播放速度
       config_from_file: false                       # 从配置文件内获取参数
